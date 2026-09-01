@@ -1,0 +1,14 @@
+#!/usr/bin/env sh
+
+# Don't let yabai tile anything — pure floating window manager mode
+yabai -m config layout float
+yabai -m rule --add app=".*" manage=off
+
+SCRIPTS="$HOME/.config/yabai/scripts"
+
+# Enforce a minimum y of 40 for every window, on creation, move, or resize
+yabai -m signal --add event=window_created action="$SCRIPTS/enforce-min-y.sh \$YABAI_WINDOW_ID"
+yabai -m signal --add event=window_moved   action="$SCRIPTS/enforce-min-y.sh \$YABAI_WINDOW_ID"
+yabai -m signal --add event=window_resized action="$SCRIPTS/enforce-min-y.sh \$YABAI_WINDOW_ID"
+
+echo "yabai config loaded"

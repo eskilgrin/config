@@ -1,0 +1,5 @@
+#alias
+#alias ls="ls -G"
+alias ..="cd .." 
+alias update="brew update; brew upgrade --greedy; brew autoremove; brew cleanup; brew doctor"
+alias ls='ls --color=auto'
