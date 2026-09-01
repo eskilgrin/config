@@ -1,0 +1,1002 @@
+cd ..
+cd
+cd oblig2
+ls
+open innleveringsfil.pdf
+touch klokke_kabalen2.py
+vim klokke_kabalen2.py
+vim klokke_kabalen2.py
+vim innleveringsfil.md
+ls
+mkdir bilder
+mv *.png bilder
+ls
+cd bilder
+vim inn
+ls
+cd ..
+vim innleveringsfil.md
+ls
+vim innleveringsfil.md
+pip install --user smdv\
+
+pip3 install --user smdv\
+
+vim innleveringsfil.md
+vim innleveringsfil.md
+cd bilder
+ls
+cd ..
+code innleveringsfil.md
+cd bilder
+ls
+mv oblig2_mat1120\ -\ 1.png bilde1.png
+ls
+ls
+mv oppgave1d.png ..
+mv oppgave1f.png ..
+mv oppgave2h.png ..
+ls
+rm *.png-alias
+ls
+mv oblig2_mat1120\ -\ 10.png bilde10.png
+mv oblig2_mat1120\ -\ 11.png bilde11.png
+mv oblig2_mat1120\ -\ 13.png bilde13.png
+mv oblig2_mat1120\ -\ 12.png bilde12.png
+mv oblig2_mat1120\ -\ 14.png bilde14.png
+mv oblig2_mat1120\ -\ 15.png bilde15.png
+mv oblig2_mat1120\ -\ 16.png bilde16.png
+mv oblig2_mat1120\ -\ 17.png bilde17.png
+mv oblig2_mat1120\ -\ 18.png bilde18.png
+mv oblig2_mat1120\ -\ 19.png bilde19.png
+mv oblig2_mat1120\ -\ 2.png bilde2.png
+mv oblig2_mat1120\ -\ 20.png bilde20.png
+mv oblig2_mat1120\ -\ 21.png bilde21.png
+mv oblig2_mat1120\ -\ 22.png bilde22.png
+mv oblig2_mat1120\ -\ 3.png bilde3.png
+mv oblig2_mat1120\ -\ 4.png bilde4.png
+mv oblig2_mat1120\ -\ 5.png bilde5.png
+mv oblig2_mat1120\ -\ 6.png bilde6.png
+mv oblig2_mat1120\ -\ 7.png bilde7.png
+mv oblig2_mat1120\ -\ 8.png bilde8.png
+mv oblig2_mat1120\ -\ 9.png bilde9.png
+ls
+cd ..
+ls
+cd bilder
+ls
+cd ..
+ls
+pandoc innleveringsfil.md -o innleveringsfil.pdf
+ls
+open innleveringsfil.pdf
+size innleveringsfil.pdf
+ls
+rm innleveringsfil.pdf
+pandoc innleveringsfil.md -o innleveringsfil.pdf
+open innleveringsfil.pdf
+open innleveringsfil.pdf
+cxd
+cd
+ls
+open a
+open harris_solutions_all.pdf
+cd
+ls
+vim hashing.py
+cd ..
+cd ..
+mkdir eksamen
+cd eksamen
+touch eksamen_2019.py
+vim eksamen_2019.py
+vim eksamen_2018.py
+ls
+vim eksamen_201
+ls
+vim eksamen_2018.py
+vim eksamen_2018.py
+vim eksamen_2021.py
+mv eksamen_2021.py eksamen_2010.txt
+vim eksamen_2010.txt
+vim eksamen_2010.txt
+ls
+mv eksamen_2010.txt eksamen_2020.txt
+vim eksamen_2020.txt
+vim node_test.py
+ls
+mv eksamen_2020.txt eksamen_2021.py
+mv eksamen_2021.py eksamen_2021.txt
+vim eksamen_2021
+ls
+vim eksamen_2021.txt
+py node_test.py
+py node_test.py
+ls
+pwd
+ECHO home
+ECHO $home
+ls
+tmux
+tmux
+tmux
+cd
+ls
+open MAT1120_oblig1_eskilgh.pdf
+cd ..
+cd oblig2
+ls
+vim klokke_kabalen2.py
+vim klokke_kabalen2.py
+cd
+cd .config
+ls
+ls -a
+cd
+ls -a
+vim .vimrc
+cd .config
+ls
+cd ..
+ls
+vim test.py
+ls
+rm test.py
+ls
+ls
+cd jobb
+ls
+open cv_oppdatert_2023.docx
+cd
+ls
+open cv_oppdatert_2023_engelsk.docx
+ls
+open cv_oppdatert_2023_engelsk.pdf
+open jobbs√∏knad_ent3r.docx
+open jobbs√∏knad_ent3r.docx
+ls
+cd
+vim .vimrc
+vim .vimrc
+ls
+vim get-pip.py
+vim get-pip.py
+open get-pip.py
+cd .config
+ls -a
+cd
+ls -a
+vim .tmux.conf
+ls
+cd obli
+cd obliger
+ls
+cd Oblig1
+ls
+cd ..
+cd ..
+ls
+cd oppgaver
+ls
+cd BinaerTraer
+ls
+cd ..
+cd ..
+cd Obliger
+ls
+cd oblig2
+ls
+vim balansert_binaertre.py
+vim effektive_mengder_avl.py
+cd ..
+cd ..
+ls
+cd oppgaveer
+cd oppgaver
+ls
+cd sorting
+ls
+vim quick_sort.py
+cd ..
+cd ..
+cd
+ls -a
+cd .config
+ls
+cd zsh
+ls
+ls -a
+vim .zshrc
+c.
+vim .zshrc
+cb
+vim .zshrc
+cc
+ls
+cd obliger
+ls
+cd oblig1
+ls
+vim sorting.py
+vim merge.py
+tmux
+tmux
+ls
+cd desktop
+ls
+cc
+cc
+ls
+cd eksamen
+ls
+vim eksamen_2022.txt
+rm eksamen_2022.txt
+cc
+ls
+cd obliger
+ls
+cd oblig3
+ls
+vim graf.py
+cd ..
+ls
+cc
+ls
+cd eksamen
+ls
+vim eksamen_2021.txt
+vim alle_algoritmer.py
+vim alle_algoritmer.py
+vim alle_algoritmer.py
+cc
+ls
+cd obliger
+ls
+cd oblig4
+ls
+vim hashing.py
+vim hashing.py
+ls
+python3 hashing.py < inputs/input_100 | cmp - outputs/output_100
+cd
+cd .conig
+cd .config
+ls
+cc
+vim .vimrc
+vim .vimrc
+cd oblig4
+ls
+vim hashing.py
+cd
+vim .vimrc
+vim .vimrc
+cd .config
+ls
+cd zsh
+ls
+ls -a
+vim .zshrc
+cd ..
+tmux help
+tmux -h
+tmux --h
+cd ..
+ls
+vim eksamen_2019_2.txt
+ls
+vim eksamen_2020.txt
+vim eksamen_2020.txt
+cd
+tmux
+cd
+vim .vimrc
+ /usr/bin/env /usr/local/bin/python3 /Users/eskilgrinakerhansen/.vscode/extensions/ms-python.python-2023.18.0/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 56650 -- /Users/eskilgrinakerhansen/Documents/IN2010/eksamen/alle_algoritmer.py 
+ cd /Users/eskilgrinakerhansen/Documents/IN2010/eksamen ; /usr/bin/env /usr/local/bin/python3 /Users/eskilgrinakerhansen/.vscode/extensions/ms-python.python-2023.18.0/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 56660 -- /Users/eskilgrinakerhansen/Documents/IN2010/eksamen/alle_algoritmer.py 
+ cd /Users/eskilgrinakerhansen/Documents/IN2010/eksamen ; /usr/bin/env /usr/local/bin/python3 /Users/eskilgrinakerhansen/.vscode/extensions/ms-python.python-2023.18.0/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 56668 -- /Users/eskilgrinakerhansen/Documents/IN2010/eksamen/alle_algoritmer.py 
+ cd /Users/eskilgrinakerhansen/Documents/IN2010/eksamen ; /usr/bin/env /usr/local/bin/python3 /Users/eskilgrinakerhansen/.vscode/extensions/ms-python.python-2023.18.0/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 56676 -- /Users/eskilgrinakerhansen/Documents/IN2010/eksamen/alle_algoritmer.py 
+tmux
+tmux
+ls
+ls -a
+cd .config
+ls
+cd zsh
+ls
+ls -a
+vim .zshrc
+cd ..
+cd
+brew search raycast
+ls
+cd oblig2
+ls
+cd oppgave2
+ls
+cd ..
+cd oppgave3
+ls
+cd ..
+cd vhdfiler
+ls
+vim fulladder.vhd
+cd ..
+rm -rf oppgave2
+rm -rf oppgave3
+ls
+cd oppgave1
+ls
+cc
+rm -rf oppgave1
+ls
+cd vhdfiler2
+ls
+cd
+ls
+vim eksamen_2022.txt
+ls
+vim eksamen_2021.txt
+vim eksamen_2020.txt
+vim eksamen_2019.txt
+vim eksamen_2019_2.txt
+ls
+vim eksamen_2022.txt
+vim eksamen_2019_2.txt
+vim eksamen_2020.txt
+vim eksamen_2017.txt
+vim eksamen_2020.txt
+vim eksamen_2022.txt
+ls
+vim eksamen_2020.txt
+vim alle_algoritmer.py
+code alle_algoritmer.py
+vim eksamen_2022.txt 
+vim eksamen_2016.txt
+rm eksamen_2016.txt
+ls
+vim node_test.py
+ls
+vim eksamen_2018.txt
+vim eksamen_2018.txt
+ls
+rm eksamen_2018.txt
+vim eksamen_2018.txt
+rm eksamen_2018.txt
+vim eksamen_2019_2.txt
+ls 
+cd ..
+cc
+ls
+mkdir tidligere_fag
+mv in2010 tidligere_fag
+mv in2060 tid
+ls
+cd tid
+ls
+mv tid in2060
+cc
+mv tid in2060
+mv in2060 tidligere_fag
+mv mat1120 tidligere_fag
+ls 
+cd projects
+ls
+cd master
+ls
+cd ..
+cc
+cd personlig
+ls
+cd jobb
+ls
+rm All\ I\ Want\ For\ Christmas\ is\ You.mp3\`\`\`\ \ ¬ÉÄ\ \ 1\ ¬ÉÄI\ ¬ÉÄm3.xmst.mp3
+ls
+open grades_university.png
+cc
+cc
+ls
+cd tidligere_fag
+ls
+cd in2010
+ls
+cd obliger
+ls
+cd oblig1
+ls
+cc
+cd oblig2
+ls
+cc
+cd oblig3
+ls
+vim actors
+cd actors
+vim actors.tsv
+cc
+vim graf.py
+vim graf.py
+tmux
+ls -a
+vim .vimrc
+vim .vimrc
+vim test
+ls
+rm test
+vim .vimrc
+ls -a
+cd .vim
+ls
+cd plugged
+ls
+cc
+ls
+cd colors
+ls
+cd
+vim .vimrc
+vim test.py
+rm test.py
+vim .vimrc
+ls -a
+cd .vim
+ls
+cd colors
+ls
+cc
+cd autoload
+ls
+cd onedark.vim
+vim onedark.vim
+cc
+ls
+cd colors
+ls
+cd onedark.vim
+vim onedark.vim
+cd
+vim .vimrc
+vim .vimrc
+vim test.py
+rm test.py
+vim .vimrc
+cd .config
+ls
+cd zsh
+vim .zshrc
+ls
+cd tidligere_fag
+ls
+tmux
+cd actor
+cd actors
+vim actors
+vim actors.tsv
+vim actors.ts
+ls
+rm actors.ts
+cd
+ls
+mkdir 1030
+cd 1030
+mkdir obliger
+cd obliger
+mkdir oblig1
+cd oblig1
+vim oblig1.md
+vim oblig1.md
+vim oblig1.md
+vim oblig1.md
+ls
+rm oblig1.md
+cd
+vim .vimrc
+tmux
+/Applications/PaperCut\ Mobility\ Print\ Client/initprinters ; exit;
+vim terning.py
+rm terning.py
+ls
+cd downloads
+ls
+rm 9788215068770.pdf
+brew cask install skim
+brew install skim
+cd
+vim .v
+ls
+rm .v
+vim .vimr
+rm .vimr
+vim .vimrc
+vim .vimrc
+vim .vimrc
+vim .vimrc
+vim .vimrc
+vim .vimrc
+vim .vimrc
+vim .vimrc
+ls
+mkdir 3140
+vim solutions_chapter2.tex
+ls
+rm solutions_chapter2.tex
+cd 1030
+ls
+cd obliger
+ls
+cd oblig1
+ls
+open eskilgh.pdf
+ssh
+ssh ifi
+fjdk
+vim sannsynlighet.py
+ls
+mv sannsynlighet.py ~/Documents
+cd
+cd documents
+ls
+rm sannsynlighet.py
+ls
+cd 1030
+ls
+cd obliger
+ls
+mkdir oblig2
+mv *.docx oblig2
+ls
+cd oblig2
+ls
+cd ls oblig2
+cd
+pip 
+brew install pipx
+pipx run --spec ranger-fm ranger
+ls
+cd .config
+ls
+cd ranger
+ls
+ls -a
+ls
+tmux
+rmux
+tmux
+tmux
+ranger
+ls
+cd downloads
+ls -a
+cc
+ls
+ls
+ls -a
+cd .
+ls
+cd
+al
+ranger
+ranger
+ranger
+ranger
+tmux
+tmux
+cd
+ls -a
+vim .vimrc
+ranger
+pipx search ranger
+pipx list
+pipx run --spec ranger-fm ranger
+ls -a
+cd .config
+ls
+cd zsh
+ls
+ls -a
+vim .zshrc
+ranger
+ls
+vim .zshrc
+cd
+ls
+mkdir stk1100
+cd stk1100
+mkdir kap3
+cd kap3
+vim 3.65
+vim 3.65
+vim tes.py
+rm tes.py
+vim 3.65
+mv 3.65 3.65.py
+vim 3.65.py
+vim 3.65.py
+cd
+ls
+cd get
+cd get-pip.py
+python3 get-pip.py
+python3 -m pip install --upgrade pip
+python3 pip install scipy
+pip --version
+python3 -m pip install -U pip
+python3 pip install -U pip
+_
+rm get-pip.py
+ls
+python3 get-pip.py
+cd library
+ls
+cd frameworks
+cc
+python3 --verson
+python3 --version
+pip --versions
+cd Library
+cd Python
+ls
+ls -a
+cd
+mv get-pip.py library/Python
+cd library
+cd python
+ls
+python3 get-pip.py
+python3 --verison
+python3 --version
+pip --version
+python3 -m pip --version
+python3 -m ensurepip --default-pip
+python3 pip install scypy
+python3 -m pip install scipy
+cd
+ls
+vim 3.65.py
+vim 3.65.py
+vim 3.65.py
+python3 -m pip --version
+ranger
+cd
+ranger
+vim 3.65.py
+vim 3.65.py
+vim 3.91.py
+cd
+ls
+cd obliger
+ls
+cd oblig3
+ls
+cd ..
+cd oblig2
+ls
+rm doedelighet.tsv
+cd oblig1
+ls
+vim oppgave3.py
+tmux
+tmux
+cd oblig1
+ls
+vim oppgave3.py
+python3 oppgave3.py
+cc
+cc
+ls
+cd kap3
+ls
+python3 3.65.py
+ranger
+ls
+cd documents
+ls
+cd stk1100
+ls
+cd kap3
+ls
+vim 3.65.py
+vim 3.65.py
+ranger
+ls
+vim 3.66.py
+vim 3.67.py
+vim 3.67.py
+vim 3.91.py
+vim 3.94.py
+vim 3.98.py
+cd ..
+cc
+ls
+cd 1030
+ls
+cd obliger
+ls
+mkdir oblig3
+touch oblig3.docx
+ls
+mv oblig3.docx oblig3
+cd oblig3
+ls
+open oblig3.docx
+ranger
+vim oblig3.docx
+ranger
+vim read.md
+cd
+vim .vimrc
+cd downloads
+ls
+mv Oblig\ 1.pdf ../documents/
+cd
+cd documents
+ls
+mv Oblig\ 1.pdf IN3140_oblig1_eskilgh.pdf
+mv IN3140_oblig1_eskilgh.pdf 3140
+ls
+cd 3140
+ls
+vim README.md
+vim README.md
+mkdir oblig1
+mv README.md oblig1
+mv IN3140_oblig1_eskilgh.pdf oblig1
+vim README.md
+ls
+cd oblig1
+vim README.md
+ls
+open IN3140_oblig1_eskilgh.pdf
+cd
+ls
+ranger
+ranger
+cc
+cc
+cd 3140
+ls
+cd oblig1
+ls
+open IN3140_oblig1_eskilgh.pdf
+cd
+ls
+cd oblig3
+ls
+vim read.md
+rm read.md
+vim oblig3.docx
+vim oblig3.docx
+open oblig3.docx
+cd
+vim 3.98.py
+cd
+ls
+mv eskligh.pdf eskilgh.pdf
+open eskilgh.pdf
+cd
+ls
+open IN3140_oblig1_eskilgh.pdf
+cd
+cc
+cd oblig3
+ls
+open oblig3.docx
+cd
+cd oblig2
+cd obliger/oblig2
+open oblig2.pdf
+curl -O https://www.uio.no/studier/emner/matnat/math/STK1100/data/doedelighet.txt
+ls
+vim doedelighet.txt
+ls
+mv doedelighet.txt doedelighet.tsv
+vim doedelighet.tsv
+cd
+ls
+mkdir obliger
+cd obliger
+ls
+mkdir oblig1
+curl -O https://www.uio.no/studier/emner/matnat/math/STK1100/data/doedelighet.txt
+curl -O https://www.uio.no/studier/emner/matnat/math/STK1100/data/doedelighet.txt
+ls
+mv doedelighet.txt doedelighet.tsv
+ls
+mv doedelighet.tsv oblig1
+cd oblig1
+ls
+vim oppgave3.py
+python3 pip install pandas
+python3 pip --version
+cd
+python3 pip --version
+python3 pip install pandas
+ls
+cd oblig1
+ls
+vim oppgave3.py
+vim oppgave3.py
+vim oppgave3.py
+brew install pip
+brew install python
+python3 pip --version
+cd
+pip install pandas
+python3 pip --version
+pip --version
+python3 get-pip.py
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python3 get-pip.py
+python3 pip --version
+python3 pip install pandas
+python3 pip install pandajks
+ls -a
+pip install numpy
+python3 pip install numpy
+python3 -m pip --version
+pip3 --version
+pip3 install numpy
+pip3 install pandas
+ls -a
+python3 -m pip3 --version
+pip3 --version
+pip3 install scipy
+pip3 uninstall matplotlib
+pip3 install matplotlib
+ls -a
+cd library
+ls
+cd python
+ls
+cd 3.11
+ls
+cd lib
+ls -a
+cd ..
+cc
+ls
+python3 get-pip.py
+cd
+which python
+which python3
+ export PATH=/Library/Frameworks/Python.framework/Versions/2.7/bin/python:${PATH}
+which python3
+ export PATH=/Library/Frameworks/Python.framework/Versions/2.7/bin/python:${PATH}
+which python3
+ls
+rm get-pip.py
+ls -a
+ export PATH=/Library/Frameworks/Python.framework/Versions/2.7/bin/python:${PATH}
+which python3
+sudo python `which pip` install scikit-learn --upgrade
+sudo python3 `which pip` install scikit-learn --upgrade
+ls -a
+cd .python_history
+cd library
+ls
+cd python
+ls
+cd 3.11
+ls
+cd
+brew install python
+brew reinstall python@3.12
+pip3 install matplotlib
+python3 -m pip install scipy
+python3 --version
+which python3
+python3 3.65.py
+pip3 install matplotlib
+which python3
+cd
+ls -a
+/usr/bin/python3 --version
+python3 --version
+which -a
+which -a python3
+brew search matplotlib
+brew info python-matplotlib
+python3 -m pip install matplotlib
+pip3 install matplotlib
+pipx install matplotlib
+ls -a
+vim test.py
+brew install matplotlib
+brew install python-matplotlib
+python3 test.py
+python3 test.py
+vim test.py
+brew search numpy
+vim test.py
+cc
+cd kap3
+ls
+python3 3.65.py
+brew search scipy
+which matplotlib
+which python-matplotlib
+cd
+ls
+ls -a
+brew refresh
+cd .config
+ls
+cd zsh
+ls
+vim .zshrc
+vim .zshrc
+which python
+which pip
+which python
+pip install panda
+cd
+vim test.py
+vim test.py
+pip3 --version
+python3 --version
+which python3
+which pip3
+pip3 install panda
+python3 -m venv .
+ls -la
+python3 -m venv venv
+ls
+cd venv
+ls
+tree bin
+cd
+cd .config
+cd zsh
+vim .zshrc
+cd
+ls
+rm -rf venv
+rm pyvenv.cfg
+pip install panda
+pip reinstall panda
+pip uninstall panda
+pip install panda
+cd
+brew search panda
+brew info panda
+which python
+which python3
+which pip
+pip install panda
+vim test.py
+rm test.py
+brew install python
+brew unlink python
+brew link python
+pip --version
+cd .config
+cd zsh
+vim .zshrc
+cd
+python3 test.py
+which panda
+pip install panda
+cd .config
+ls
+cd zsh
+vim .zshrc
+which python
+python3 --version
+which python3
+which pip
+pip install panda
+pip install scipy
+vim test.py
+vim test.py
+which python
+which python3
+which pip
+which pip3
+pip --version
+cd
+cd oblig1
+python3 oppgave3.py
+/Applications/Python\ 3.12/Install\ Certificates.command ; exit;
+cd oblig1
+ls
+cd oppgave3.py
+python3 oppgave3.py

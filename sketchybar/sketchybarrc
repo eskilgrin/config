@@ -1,0 +1,82 @@
+#!/usr/bin/env bash
+# Minimal SketchyBar config. Docs: https://felixkratz.github.io/SketchyBar/config
+# export PATH="/opt/homebrew/opt/node@8/bin:$PATH"
+
+
+PLUGIN_DIR="$HOME/.config/sketchybar/plugins"
+source "$PLUGIN_DIR/colors.sh"
+source "$PLUGIN_DIR/icon.sh"
+
+##### Bar #####
+bar=(
+    position=top
+    height=40
+    blur_radius=30
+    color=0xff24273a
+)
+sketchybar --bar "${bar[@]}"
+
+##### Defaults #####
+default=(
+  padding_left=5
+  padding_right=5
+  icon.font="Hack Nerd Font:Bold:17.0"
+  label.font="Hack Nerd Font:Bold:14.0"
+  icon.color=0xffffffff
+  label.color=0xffffffff
+  icon.padding_left=4
+  icon.padding_right=4
+  label.padding_left=4
+  label.padding_right=4
+)
+sketchybar --default "${default[@]}"
+
+##### FlashSpace workspaces (left) #####
+sketchybar --add event flashspace_workspace_change
+
+SID=1
+for workspace in $(/Applications/FlashSpace.app/Contents/Resources/flashspace list-workspaces); do
+  sketchybar --add item flashspace.$SID left \
+    --subscribe flashspace.$SID flashspace_workspace_change \
+    --set flashspace.$SID \
+    background.color=0x22ffffff \
+    background.corner_radius=5 \
+    background.padding_left=5 \
+    label.padding_left=5 \
+    label.padding_right=5 \
+    label="$SID $workspace" \
+    script="$PLUGIN_DIR/flashspace.sh $workspace"
+  SID=$((SID + 1))
+done
+
+##### Left items #####
+sketchybar --add item chevron left \
+           --set chevron icon= label.drawing=off \
+           --add item front_app left \
+           --set front_app icon.drawing=off script="$PLUGIN_DIR/front_app.sh" \
+           --subscribe front_app front_app_switched
+
+##### Right items (uncomment as needed) #####
+sketchybar --add item clock right \
+           --set clock update_freq=10 icon= script="$PLUGIN_DIR/clock.sh" \
+           --add item volume right \
+           --set volume update_freq=5 script="$PLUGIN_DIR/volume_hp.sh" \
+           --subscribe volume volume_change \
+           --add item battery right \
+           --set battery update_freq=120 script="$PLUGIN_DIR/battery.sh" \
+           --subscribe battery system_woke power_source_change 
+
+# Display Spotify
+sketchybar -m --add item mpd right \
+              --set mpd update_freq=2 \
+              --set mpd script="$HOME/.config/sketchybar/plugins/mpd.sh" \
+              --set mpd click_script="mpc toggle"
+
+# Recognise headphones usage (can probably get better)
+# sketchybar -m --add item headphones right \
+#     --set headphones update_freq=1 \
+#     --set headphones script="$HOME/.config/sketchybar/plugins/ble_headset.sh" \
+
+
+##### Finalize #####
+sketchybar --update

@@ -1,0 +1,3 @@
+alt + ctrl - l : $HOME/.config/yabai/scripts/snap.sh right
+alt + ctrl - h : $HOME/.config/yabai/scripts/snap.sh left
+alt + ctrl - f : $HOME/.config/yabai/scripts/snap.sh full
