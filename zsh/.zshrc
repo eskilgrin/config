@@ -38,12 +38,14 @@ short_pwd() {
 }
 
 # Use the trimmed path in your prompt
-PROMPT='%{$fg_bold[green]%}$(short_pwd)%{$reset_color%} $(git_prompt_info) %{$fg[magenta]%}➜%{$reset_color%} '
+setopt prompt_subst
 
+PROMPT='%{$fg_bold[green]%}╭─%{$reset_color%}%{$fg_bold[green]%}$(short_pwd)%{$reset_color%} %{$fg_bold[yellow]%}${CONDA_DEFAULT_ENV:+($CONDA_DEFAULT_ENV)}%{$reset_color%}
+%{$fg_bold[green]%}╰─$(git_prompt_info)%{$fg_bold[magenta]%}➜%{$reset_color%} '
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-# __conda_setup="$('$HOME/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+__conda_setup="$('$HOME/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
 if [ $? -eq 0 ]; then
     eval "$__conda_setup"
 else

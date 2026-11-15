@@ -1,16 +1,18 @@
-#!/bin/sh
-# Combined volume/headphone icon script
-
 is_headphones_connected() {
-  DEVICES="$(system_profiler SPBluetoothDataType -json -detailLevel basic 2>/dev/null \
-    | jq -r '.SPBluetoothDataType[0].device_connected[]?
-             | to_entries[]
-             | select(.value.device_minorType == "Headphones")
-             | .key')"
-  [ -n "$DEVICES" ]
+    OUTPUT="$(SwitchAudioSource -c -t output 2>/dev/null)"
+
+    case "$OUTPUT" in
+        *AirPods*|*Headphone*|*headphone*|*Bose*|*Sony*|*Beats*)
+            return 0
+            ;;
+        *)
+            return 1
+            ;;
+    esac
 }
 
 VOLUME=$(osascript -e 'output volume of (get volume settings)')
+
 if is_headphones_connected; then
     ICON=""
 else

@@ -1,11 +1,10 @@
 #!/usr/bin/env bash
 # Minimal SketchyBar config. Docs: https://felixkratz.github.io/SketchyBar/config
-# export PATH="/opt/homebrew/opt/node@8/bin:$PATH"
-
+# GUI-launched sketchybar does not inherit the shell PATH; make homebrew
+# tools (jq, pmset, etc.) resolvable.
+export PATH="/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 
 PLUGIN_DIR="$HOME/.config/sketchybar/plugins"
-source "$PLUGIN_DIR/colors.sh"
-source "$PLUGIN_DIR/icon.sh"
 
 ##### Bar #####
 bar=(
@@ -67,10 +66,10 @@ sketchybar --add item clock right \
            --subscribe battery system_woke power_source_change 
 
 # Display Spotify
-sketchybar -m --add item mpd right \
-              --set mpd update_freq=2 \
-              --set mpd script="$HOME/.config/sketchybar/plugins/mpd.sh" \
-              --set mpd click_script="mpc toggle"
+# sketchybar -m --add item mpd right \
+#               --set mpd update_freq=2 \
+#               --set mpd script="$HOME/.config/sketchybar/plugins/mpd.sh" \
+#               --set mpd click_script="mpc toggle"
 
 # Recognise headphones usage (can probably get better)
 # sketchybar -m --add item headphones right \

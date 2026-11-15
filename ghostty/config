@@ -1,0 +1,11 @@
+foreground = ffffff
+background = 282c34
+
+font-size = 20
+font-family = "Hack Nerd Font Mono Bold"
+
+macos-titlebar-style = hidden
+macos-window-buttons = hidden
+
+selection-clear-on-copy = true
+selection-background = #3e4451

@@ -1,5 +1,5 @@
 vim.api.nvim_create_autocmd("BufReadCmd", {
-  pattern = "*.pdf",
+  pattern = {"*.pdf", "*.png", "*.jpg", "*.jpeg"},
   callback = function(ev)
     local path = vim.fn.fnamemodify(ev.file, ":p")
     vim.fn.jobstart({ "open", path }, { detach = true })
