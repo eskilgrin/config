@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "flashspace",
+  "description": "Manage FlashSpace workspaces, profiles, and apps from Raycast",
+  "author": {
+    "name": "krmbzds"
+  },
+  "license": "MIT"
+}

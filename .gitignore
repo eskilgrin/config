@@ -1,8 +1,21 @@
+# macOS
 .DS_STORE/
+.DS_Store
+
+# zsh
+.zcompdump*
+.zsh_history
+.zsh_history.*
+.zsh_sessions/
+.zcompcache/
+.zshenv.local
+.zsh_plugins.zsh
+.zsh_plugins.txt
+
+# oh-my-zsh / zinit-style plugin dirs
+zsh/plugins/
+
+# misc
 wandb/
-raycast/
 gh/
 flashspace/
-zsh/plugins/
-.zsh_history
-.zcompdump
