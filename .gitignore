@@ -4,3 +4,5 @@ raycast/
 gh/
 flashspace/
 zsh/plugins/
+.zsh_history
+.zcompdump
